@@ -1,0 +1,66 @@
+/* Login.module.css */
+
+.container {
+    text-align: center;
+    min-height: calc(100vh - 40px); /* Adjusted for space for the link */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align content vertically */
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(9, 174, 163, 0.9);
+    box-shadow: 0 0 10px rgba(252, 252, 252, 0.1);
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .label {
+    margin-bottom: 8px;
+    color: #212020;
+  }
+  
+  .input,
+  .button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .button {
+    background-color: #125d73;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #090909;
+  }
+  
+  .message {
+    margin-bottom: 20px;
+    color: #010101;
+  }
+  
+  .link {
+    color: #003ffc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }

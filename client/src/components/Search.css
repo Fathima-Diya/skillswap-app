@@ -1,0 +1,66 @@
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+  }
+  
+  /* Style for the left side containing the dropdown */
+  .left-side {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+  }
+  
+  /* Style for the dropdown */
+  .dropdown {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the dropdown label */
+  .dropdown label {
+    font-size: 1.2rem;
+  }
+  
+  /* Style for the dropdown select */
+  .dropdown select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  /* Style for the search button */
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3AAFA9;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the search button on hover */
+  .search-button:hover {
+    background-color: #3AAFA9;
+  }
+  
+  /* Style for the right side containing the image */
+  .right-side {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+  }
+  
+  /* Style for the image */
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
