@@ -10,7 +10,11 @@ const app = express();
 app.use(express.json());
 app.use(
     cors({
-        origin: ["http://localhost:5173", "https://fathima-diya.github.io"],
+        origin: [
+            "http://localhost:5173",
+            "https://fathima-diya.github.io",
+            "https://skillswap-frontend.vercel.app",
+        ],
         methods: ["GET", "POST"],
         allowedHeaders: ["Content-Type"],
     })
@@ -141,6 +145,10 @@ app.get("/users", async (req, res) => {
         console.error("Error fetching users:", error);
         res.status(500).json({ error: "Internal Server Error" });
     }
+});
+
+app.get("/", (req, res) => {
+    res.send("Welcome to SkillSwap backend!");
 });
 
 server.listen(PORT, () => {
